@@ -36,9 +36,11 @@ app.use('/api/articles', articleRoutes);
 
 // Route racine : message de bienvenue
 app.get('/', (req, res) => {
+  const baseUrl = `${req.protocol}://${req.get('host')}`;
   res.json({
     message: '🚀 Bienvenue sur le Blog API - INF222 TAF1',
-    documentation: `http://localhost:${PORT}/api-docs`,
+    demo_url: 'https://blog-api-inf222-kv86.onrender.com/',
+    documentation: `${baseUrl}/api-docs`,
     endpoints: {
       'GET    /api/articles'            : 'Lister tous les articles',
       'GET    /api/articles/search'     : 'Rechercher des articles (?query=texte)',

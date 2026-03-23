@@ -5,6 +5,15 @@ Développée avec **Node.js + Express + SQLite**.
 
 ---
 
+## 🌐 Démo en ligne
+
+L'API est déployée et accessible publiquement ici :  
+👉 **[https://blog-api-inf222-kv86.onrender.com/](https://blog-api-inf222-kv86.onrender.com/)**
+
+Vous pouvez tester les endpoints directement ou utiliser la [Documentation Swagger en ligne](https://blog-api-inf222-kv86.onrender.com/api-docs).
+
+---
+
 ## 📁 Structure du projet
 
 ```

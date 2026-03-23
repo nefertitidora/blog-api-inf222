@@ -5,6 +5,8 @@ info:
   version: 1.0.0
 
 servers:
+  - url: https://blog-api-inf222-kv86.onrender.com
+    description: Serveur en production (Render)
   - url: http://localhost:3000
     description: Serveur local
 
